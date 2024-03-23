@@ -82,11 +82,15 @@ if __name__ == '__main__':
     customQueue.enqueue(20)
     print(customQueue)
 
+    print("\n--Check peek--", end=" ")
+    print(customQueue.peek())
+
     print("\n--Dequeue--", end=" ")
     print(customQueue.dequeue())
 
     print("\n--Check customQueue--", end=" ")
     print(customQueue)
 
+    
 
     
